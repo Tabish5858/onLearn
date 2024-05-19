@@ -16,19 +16,11 @@
     box-sizing: border-box;
 }
 
-html,
-body {
-    height: 100%;
-    width: 100%;
-}
-
-
 /* <!-- ✅✅✅✅✅✅✅✅✅✅✅ Header ✅✅✅✅✅✅✅✅✅✅ --> */
 
 header {
     position: relative;
     top: 2.81rem;
-    /* left: 1rem; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +52,6 @@ nav>img {
     gap: 3.75rem;
     list-style-type: none;
 }
-
 #navMenu>ul>li {
     color: var(--pri, #0B7077);
     font-family: Gilroy;
